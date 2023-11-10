@@ -9,7 +9,7 @@
     </head>
     <body style="background-image: url(https://img.freepik.com/free-vector/glossy-plastic-colorful-balls-background_23-2148288801.jpg?w=360); background-size: 100%;">
         <table style="border-color: rgb(144, 15, 170) ;border-width: 5px;" align="center" border="1">
-            <form reset action="registration.html">
+            <form reset action="customers.html">
                 <tr>
                     <th colspan="5"><h1>Review's Box</h1></th>
                 </tr>
