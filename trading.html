@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Review Box </title>
+    </head>
+    <body style="background-image: url(https://img.freepik.com/free-vector/glossy-plastic-colorful-balls-background_23-2148288801.jpg?w=360); background-size: 100%;">
+        <table style="border-color: rgb(144, 15, 170) ;border-width: 5px;" align="center" border="1">
+            <form reset action="trading.html">
+                <section id="home">
+                    <tr>
+                        <th colspan="2"><h1 align="center">Food_Stall Kitchen</h1></th>
+                    </tr>
+                </section>
+                <section id="Customer">
+                    <tr>
+                        <td colspan="2"><h3>Customer:</h2></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Name">Name:</label></td>
+                        <td><input type="text" id="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Visiting_date">Date</label></td>
+                        <td><input type="date" placeholder="dd/mm/yyyy"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Mobile_No">Mobile_No</label></td>
+                        <td><input type="number" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button><input type="submit" value="Update"></button></td>
+                    </tr>
+                </section>
+                <section id="trade">
+                    <tr>
+                        <td colspan="2"><h2>Trade:</h2></td>
+                    </tr>
+                    <tr>
+                        <td><label for="foods">Fast_Food:</label></td>
+                        <td>
+                            <a href="registration.html">FOOD</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Quantity:</label></td>
+                        <td><input type="text" id="quantity" name="quantity"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="price">Price:</label></td>
+                        <td><input type="text" id="price" name="price"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button><input type="submit" value="Trade"></button></td>
+                    </tr>
+                </section>
+            </form>
+        </table>
+    <footer>
+        <ul align="center" type="None">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Customer">Customer</a></li>
+            <li><a href="#trade">Trade</a></li>
+        </ul>
+        <marquee>
+            <h3>Thanks for purchasing....Please Come Back Again.😄😄</h3> 
+        </marquee>
+    </footer>
+  </body>
+</html>
